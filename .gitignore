@@ -1,0 +1,50 @@
+# Byte-compiled files
+*.py[cod]
+__pycache__/
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Cache files and directories
+*.egg-info/
+*.eggs/
+dist/
+build/
+*.egg
+*.log
+*.cache
+*.pytest_cache/
+pip-wheel-metadata/
+*.sqlite3
+__pypackages__/
+
+# Environment files
+.env
+.env.*
+*.ini
+*.cfg
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.tmp
+
+# LangChain specific
+logs/  # Any logs if you're storing them
+*.pkl  # Serialized chain files or pickled files
+*.jsonl  # LangChain's JSONL documents or embeddings
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
